@@ -35,15 +35,15 @@
 	- a python module implementing an MHTML creator/parser
 
 - interesting functions
-	- libmhtml.get(url)
-	- libmhtml.parse(contents)
+	- pymhtml.get(url)
+	- pymhtml.parse(contents)
 
 - usage
 	- get an URL and MTHML'ize it
-		> ./libmhtml.py http://www.nytimes.com /tmp/nytimes.mht
+		> ./pymhtml http://www.nytimes.com /tmp/nytimes.mht
 	- get an MHTML file and convert it into different files
 		> mkdir /tmp/ex
-		> ./libmhtml.py -p /tmp/nytimes.mht /tmp/ex/
+		> ./pymhtml -p /tmp/nytimes.mht /tmp/ex/
 
 """
 
